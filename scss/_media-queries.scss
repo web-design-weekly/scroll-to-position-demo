@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   ========================================================================== */
+
+@media only screen and (max-width: 40em) {
+    html{
+        -webkit-text-size-adjust:none;
+        -ms-text-size-adjust:none
+    }
+
+    body{
+        font-size: 82.5%;
+    }
+
+    .container{
+        width:92%;
+        margin:0 auto
+    }
+
+    .grid_1,.grid_2,.grid_3,.grid_full{
+        float: none;
+        width:100%;
+        margin:0 0 2.5em;
+    }
+
+    .content-pad-left,
+    .content-pad-right {
+        margin-left:0;
+        margin-right:0;
+    }
+}
+
+
+@media only screen and (min-width: 75em) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
